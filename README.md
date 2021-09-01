@@ -1,6 +1,6 @@
 # hello-spring
-### Spring을 사용해 간단한 웹페이지 구현
-### Repository 변경가능-> SpringConfig에서 DI로 해결
+#### Spring을 사용해 간단한 웹페이지 구현
+##### Repository 변경가능-> SpringConfig에서 DI로 해결
 ### 구현한 Repository별 특징
    1. JDBC : SQL작성해야함, 반복적인 코드 작성
    2. JDBCTemplate : 코드가 훨씬 간단해졌지만 여전히 SQL 작성해야함
