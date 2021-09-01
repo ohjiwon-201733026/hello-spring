@@ -1,10 +1,11 @@
 # hello-spring
 #### Spring을 사용해 간단한 웹페이지 구현
-##### Repository 변경가능-> SpringConfig에서 DI로 해결
+##### Repository 변경가능-> SpringConfig에서 설정
+######   기존 코드를 전혀 손대지 않고 설정만으로 구현 클래스를 변경할 수 있다. (OCP, 개방,폐쇄의 원칙)
 ### 구현한 Repository별 특징
    1. JDBC : SQL작성해야함, 반복적인 코드 작성
    2. JDBCTemplate : 코드가 훨씬 간단해졌지만 여전히 SQL 작성해야함
-   3. JPA : EntityManager을 스프링 컨테이너에서 주입받아 이를 통해 엔티티의 영속성 관리
+   3. JPA : EntityManager을 스프링 컨테이너에서 주입받아 이를 통해 엔티티의 영속성 관리, SQL 작성하지 않아 객체 중심의 설계
    4. Data JPA : 기본적인 CRUD 메서드를 구현하지 않아도된다.
 
 ### Test Code 작성
